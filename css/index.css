@@ -4,11 +4,9 @@
     background-color: #333;
     color: white;
 }
-
 nav{
     background-color: #333;
 }
-
 ul{
     list-style-type: none;
     overflow: hidden;
@@ -16,11 +14,9 @@ ul{
     margin: 0px;
     padding: 0px;
 }
-
 li{
     float: left;
 }
-
 li a{
     display: block;
     color: white;
@@ -30,7 +26,6 @@ li a{
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover:not(.activo){
     background-color: #111;
 }
