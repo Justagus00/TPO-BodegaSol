@@ -1,0 +1,9 @@
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
