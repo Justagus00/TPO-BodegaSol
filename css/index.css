@@ -1,9 +1,40 @@
 .logo{
     display: flex;
     justify-content: center;
+    background-color: #333;
+    color: white;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-around;
+nav{
+    background-color: #333;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.activo){
+    background-color: #111;
+}
+
+.activo{
+    background-color: blue;
 }
