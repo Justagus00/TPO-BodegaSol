@@ -1,16 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .logo{
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #1D1E24;
     color: white;
 }
 nav{
-    background-color: #333;
+    background-color: #1D1E24;
 }
 ul{
     list-style-type: none;
     overflow: hidden;
-    background-color: #333;
+    background-color: #1D1E24;
     margin: 0px;
     padding: 0px;
 }
@@ -27,9 +31,33 @@ li a{
     text-decoration: none;
 }
 li a:hover:not(.activo){
-    background-color: #111;
+    background-color: #333;
 }
-
 .activo{
     background-color: blue;
+}
+.box1{
+    display: grid;
+    height: 100%;
+}
+.img1{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+.info{
+    background-color: #1D1E24;
+    color: wheat;
+}
+.redes{
+    display: inline;
+    width: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #333;
 }
