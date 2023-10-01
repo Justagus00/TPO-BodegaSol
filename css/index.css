@@ -27,7 +27,7 @@ li{
     float: left;
 }
 li a{
-    display: block;
+    display: flex;
     color: #A37C43;
     font-weight: bold;
     font-family: sans-serif;
