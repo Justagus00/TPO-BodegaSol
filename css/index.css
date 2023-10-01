@@ -4,8 +4,10 @@
 }
 .logo{
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: #1D1E24;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #A37C43;
     padding: 20px;
 }
@@ -52,11 +54,11 @@ li a:hover:not(.activo){
 }
 .info{
     background-color: #1D1E24;
-    color: #A37C43;
+    color: rgb(219, 48, 84);
 }
 .redes{
     display: inline;
-    width: 20px;
+    
 }
 footer{
     display: flex;
