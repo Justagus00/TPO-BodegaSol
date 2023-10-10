@@ -2,6 +2,10 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    overflow-x: hidden;
+}
+/* -----------------------------------------------------Header/Logo/Navbar-------------------------------------------------------- */
 header{
     display: flex;
     align-items: center;
@@ -10,14 +14,9 @@ header{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #A37C43;
     padding: 20px;
-    font-size: 2.5vw;
 }
 .logo{
-    height: 16vh;
-}
-nav{
-    position: sticky;
-    background-color: #1D1E24;
+    height: 50px;
 }
 .navbar{
     list-style-type: none;
@@ -37,7 +36,7 @@ li a{
     color: #A37C43;
     font-weight: bold;
     font-family: sans-serif;
-    font-size: 1.5vw;
+    font-size: 16px;
     text-align: center;
     justify-content: center;
     padding: 14px 16px;
@@ -50,23 +49,79 @@ li a:hover:not(.activo){
     color: black;
     background-color: #A37C43;
 }
-.box1{
-    display: grid;
-    height: 100%;
+i{
+    padding: 0px 4px;
 }
-.img1{
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
+/* -----------------------------------------------------Index-------------------------------------------------------- */
+.bg-img{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Img/index-viñedo2.jpg);
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
 }
+.bg-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: #A37C43;
+    text-shadow: 2px 2px 4px #333;
+    border: solid 2px #1D1E24;
+    padding: 2rem 1rem;
+    margin: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.recomendados{
+    border: solid 2px #A37C43;
+    background-color: #1D1E24;
+    color: #A37C43;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.rec-titulo{
+    display: flex;
+    padding: 1rem 0px;
+    justify-content: center;
+    align-items: c;
+}
+.rec-display{
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
+.rec-marca{
+    display: flex;
+    width: 25%;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.rec-marca:hover{
+    background-color: #333;
+}
+video{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+/* -----------------------------------------------------Catalogo-------------------------------------------------------- */
+
+/* -----------------------------------------------------Footer-------------------------------------------------------- */
 .info{
     background-color: #1D1E24;
-    color: rgb(219, 48, 84);
+    color: #A37C43;
     padding: 20px;
 }
 .redes{
-    display: inline;
-    padding: 40px 0px 0px 25px;
+    padding: 0px 0px 10px 0px;
 }
 footer{
     display: flex;
