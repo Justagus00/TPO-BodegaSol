@@ -107,6 +107,7 @@ i{
 }
 .bg-txt{
     font-size: larger;
+    width: 70rem;
     color: #A37C43;
     text-shadow: 2px 2px 4px #333;
     border: solid 2px #1D1E24;
