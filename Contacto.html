@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +8,77 @@
     <title>Bodega el Sol</title>
 </head>
 <body>
-    <header><img src="Img/logo_sol.png" alt="" class="logo"><h1>Bodega el Sol</h1></header>
-    <nav>
-        <ul class="navbar">
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="Catalogo.html">Catalogo de productos</a></li>
-            <li><a href="Nosotros.html">Sobre Nosotros</a></li>
-            <li><a class="activo" href="Contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-   
-    <div class="info">
-        <p>Siguenos en nuestras redes</p>
-        <a href="https://www.youtube.com" target="_blank"><img  class="redes" src="Img/youtube.png" alt="" width="40px"></a>
-        <a href="https://www.facebook.com" target="_blank"><img class="redes"  src="Img/facebook.png" alt="" width="40px"></a>
-        <a href="https://www.instagram.com" target="_blank"><img class="redes" src="Img/instagram.png" alt="" width="40px"></a>
-        <a href="https://www.twitter.com" target="_blank"><img  class="redes" src="Img/twitter.png" alt="" width="40px"></a>
+    <div id="pantalla">
+        <div id="contenedor">
+            <header>
+                <h1>Bodega el Sol</h1>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a class="activo" href="Catalogo.html">Catalogo de productos</a></li>
+                        <li><a href="Nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <h2>Nustros contactos</h2>
+                    <figure>
+                        <img src="" alt="200px">
+                        <figcaption>Atención al cliente</figcaption>
+                
+                    </figure>
+                    <article>
+                        <p>Por reclamos o consultas sobre tus compras lo podes realizar
+                            a través del cualquier medio ya sea email o algunas de nuestras redes y tambien 
+                            puedes dejarnos algun comentario.
+                            Si estas interesado en comerciaizar nuestros productos completa el formulario con tus
+                            datos para que podamos contactarte.
+
+                        </p>
+                    </article>
+                </section>
+                <section>
+                    <h3>Contáctenos</h3>
+                    <fieldset>
+                        <legend>Llená el formulario con tus datos</legend>
+                        <form action="">
+                            <label for="nombre">Nombre y apellido</label>
+                            <input type="text" id="nombre">
+                            <br>
+                            <label for="telefono">Teléfono</label>
+                            <input type="number" id="telefono"><br>
+
+                            <label for="mail">Email</label>
+                            <input type="email" id="email"><br>
+
+                            <label for="mensaje">Cuéntanos en qué podemos ayudarte</label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </fieldset>
+                </section>
+            </main>
+            <footer>
+                <section class="info">
+                    <p>Seguinos en nuestras redes</p>
+                    <a href="https://www.youtube.com" target="_blank"><img  class="redes" src="Img/youtube.png" alt="" width="40px"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img class="redes"  src="Img/facebook.png" alt="" width="40px"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img class="redes" src="Img/instagram.png" alt="" width="40px"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img  class="redes" src="Img/twitter.png" alt="" width="40px"></a>
+
+                </section>
+                <address>
+                    <p>Algarrobal 7001| Agrelo|Lugan de Cuyo| <br>Mendoza| Argentina</p>
+                    <p>Teléfono: <a href="tel:54976555">54976555</a></p>
+                    <p>Mail: <a href="mailto: bodegaelso@gmail.com">bodegaelsol@gmail.com</a></p>
+                </address>
+            </footer>
+
+        </div>
+
     </div>
-    <footer>
-        Derechos&Reservados 2023 | PROHIBIDA SU VENTA A MENORES DE 18 AÑOS | BEBER CON MODERACIÓN | SI VAS A CONDUCIR NO TOMES ALCOHOL |
-    </footer>
+    
 </body>
 </html>
