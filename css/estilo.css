@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 /* ver como hacer sticky el header y nav */
 header{
@@ -65,6 +66,45 @@ li a:hover:not(.activo){
     color: rgb(219, 48, 84);
     padding: 20px;
 }
+div {
+    padding-right: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .nosotros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+  .nosotros img {
+    width: 100%;
+    max-width: 700px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  td{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+
 .redes{
     display: inline;
     padding: 40px 0px 0px 25px;
@@ -77,3 +117,4 @@ footer{
     font-size: 10px;
     color: #333;
 }
+
