@@ -16,7 +16,7 @@ header{
     padding: 20px 0px;
 }
 .logo{
-    height: 50px;
+    height: 70px;
 }
 .navbar{
     display: flex;
@@ -40,8 +40,8 @@ li a{
     font-size: 16px;
     text-align: center;
     text-decoration: none;
-    padding: 10px 0px;
-    height: 100%;
+    padding: 20px 0px;
+    /* height: 100%; */
 }
 li a:hover:not(.activo){
     background-color: #333;
@@ -106,10 +106,13 @@ i{
     min-height: 500px;
 }
 .bg-txt{
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
     width: 70rem;
     color: #A37C43;
-    text-shadow: 2px 2px 4px #333;
+    text-shadow: 3px 3px 5px #111;
     border: solid 2px #1D1E24;
     padding: 2rem 1rem;
     margin: 2rem;
@@ -121,18 +124,26 @@ i{
 .info{
     background-color: #1D1E24;
     color: #A37C43;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 .logo-2{
     display: block;
     margin: auto;
     padding-bottom: 10px;
-    width: 60px;
+    height: 80px;
 }
-.redes{
+.txt-redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.link-redes{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 5px;
 }
 footer{
     padding: 2px 0px;
