@@ -17,6 +17,30 @@ header{
 }
 .logo{
     height: 70px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.txt-logo{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 .navbar{
     display: flex;
@@ -109,7 +133,8 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    /* text-align: justify; */
+    font-size: 2.5rem;
     width: 70rem;
     color: #A37C43;
     text-shadow: 3px 3px 5px #111;
@@ -124,26 +149,26 @@ i{
 .info{
     background-color: #1D1E24;
     color: #A37C43;
-    padding: 10px 0px;
+    padding: 20px 0px 20px 0px;
+    border-top-style: solid;
+    border-top-color: #A37C43;
 }
 .logo-2{
     display: block;
     margin: auto;
-    padding-bottom: 10px;
     height: 80px;
 }
 .txt-redes{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0px;
+    padding: 10px 0px 30px 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .link-redes{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 5px;
 }
 footer{
     padding: 2px 0px;
