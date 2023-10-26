@@ -10,7 +10,7 @@ body{
     font-family: 'Merriweather', serif;
     font-family: 'Noto Serif', serif;
     font-family: 'PT Serif', serif;
-
+    
 }
 #pantalla{
     width: 100%;
@@ -25,7 +25,7 @@ body{
     margin: 0px auto;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: aqua;
+    
 }
 header{
     width: 100%;
@@ -36,9 +36,42 @@ header{
 footer{
     width: 100%;
     background-color: aliceblue;
+    padding-top: 30px;
 
 }
 /*ESTILO INDEX------------------------------------------------------------------------------------------*/
-/* ver como hacer sticky el header y nav */
+/* ESTILO DE NOSOTROS -----------------------------------------------------------------------------------*/
+/* ESTLO DE CATALOGO------------------------------------------------------------------------------------*/
+
 
 /*ESTILO CONTACTO---------------------------------------------------------------------------------------*/
+
+figure img{
+    width: 100%;
+    height: auto;
+    padding: 2.5%;
+    right: 3%;
+    
+
+}
+main{
+    background-color: rgb(157, 223, 127);
+    
+}
+.arbol{
+    position: relative;
+}
+.texto{
+    position: absolute;
+    bottom: 80%;
+    text-align: bottom;
+}
+
+article{
+    padding: 50px;
+}
+h2{
+    text-align: center;
+    text-decoration: dotted;
+    
+}
