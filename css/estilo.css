@@ -17,13 +17,13 @@ header{
 }
 .logo{
     height: 7rem;
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 .txt-logo{
     font-size: 3.5rem;
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -184,6 +184,83 @@ i{
 }
 
 /* -----------------------------------------------------Catalogo-------------------------------------------------------- */
+
+body{
+    background-color: #1D1E24;
+}
+.marca{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    width: 35%;
+}
+.marca:hover:not(.activo){
+    background-color: #333;
+}
+.display{
+    display: flex;
+    padding: 1rem 0px;
+    width: 100%;
+}
+.box-display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+.box-display2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.box-display3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.vino{
+    height: 400px;
+}
+figure:hover:not(.activo){
+    background-color: #333;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+    color: #A37C43;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.linea{
+    height: 0.2rem;
+    background-color: #A37C43;
+    margin: 1rem;
+}
+@media (max-width:600px) {
+    .marca{
+        width: 50%;
+    }
+    .vino{
+        height: 140px;
+    }
+    figcaption{
+        font-size: 0.6rem;
+    }
+}
+@media (min-width:601px) and (max-width:1024px) {
+    .marca{
+        width: 40%;
+    }
+    .vino{
+        height: 250px;
+    }
+    figcaption{
+        font-size: 0.8rem;
+    }
+}
 
 /* -----------------------------------------------------Footer-------------------------------------------------------- */
 .info{
