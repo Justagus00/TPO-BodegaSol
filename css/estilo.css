@@ -345,6 +345,12 @@ h2{
     text-decoration: dotted;   
     padding: 2rem 0px;
 }
+.mapa{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem
+}
 /* ----------------------------------------------------- Footer -------------------------------------------------------- */
 .info{
     background-color: #1D1E24;
