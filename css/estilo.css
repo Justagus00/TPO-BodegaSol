@@ -30,7 +30,6 @@ body{
 header{
     width: 100%;
    
-    background-color: blueviolet;
 
 }
 footer{
@@ -65,6 +64,7 @@ main{
     position: absolute;
     bottom: 80%;
     text-align: bottom;
+    
 }
 
 article{
