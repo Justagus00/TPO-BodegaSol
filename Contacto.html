@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <script src="https://kit.fontawesome.com/afb279d775.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Merriweather&family=Noto+Serif:wght@300&family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">    
+        <link rel="shortcut icon" href="favicon/logo.ico" type="image/x-icon">
+    
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>Bodega el Sol</title>
+    </head>
+<body>
+    <header><img src="Img/logo.png" alt="" class="logo"><h1 class="txt-logo">Bodega el Sol</h1></header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="Index.html"><i class="fa-solid fa-house" style="color: #1D1E24;"></i> Home</a></li>
+            <li><a href="Catalogo.html"><i class="fa-solid fa-list" style="color: #A37C43;"></i> Catalogo de productos</a></li>
+            <li><a href="Nosotros.html"><i class="fa-solid fa-people-group" style="color: #A37C43;"></i>Sobre Nosotros</a></li>
+            <li><a class="activo" href="Contacto.html"><i class="fa-solid fa-address-book" style="color: #A37C43;"></i> Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="arbol">
+            <h2>Nuestros contactos</h2>
+            <figure class="imagen">
+                <img src="Img/contacto.jpg" alt="">
+                <figcaption>Atención al cliente</figcaption>
+            </figure>
+            <article>
+                <p class="texto">Por reclamos o consultas sobre tus compras lo podes
+                     realizar
+                    a través del cualquier medio ya sea email o algunas de nuestras
+                     redes y tambien 
+                    puedes dejarnos algun comentario.
+                    Si estas interesado en comerciaizar nuestros productos completa el 
+                    formulario con tus
+                    datos para que podamos contactarte.
+
+                </p>
+            </article>
+        </section>
+        <section>
+            <h3>Contáctenos</h3>
+            <fieldset>
+                <legend>Llená el formulario con tus datos</legend>
+                <form action="">
+                    <label for="nombre">Nombre y apellido:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre y apellido" required>
+                    <br>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="number" id="telefono" placeholder="Escribe tu teléfono" required><br>
+
+                    <label for="mail">Email:</label>
+                    <input type="email" id="email" placeholder="Escribe tu mail" required><br>
+                    <label for="pais">País:</label>
+                    <select name="pais" id="pais">
+                        <option value="Argentina">Argentina</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Peru">Perú</option>
+                        <option value="Bolivia">Bolivia</option>
+                    </select><br>
+
+
+                    <label for="mensaje">Cuéntanos en qué podemos ayudarte</label><br>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </fieldset>
+        </section>
+    </main>
+    <div class="info">
+        <img src="Img/logo.png" alt="" class="logo-2">
+        <p class="txt-redes">Siguenos en nuestras redes para saber más</p>
+        <div class="link-redes">
+            <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-2xl" style="color: #A37C43;"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-2xl" style="color: #A37C43;"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-2xl" style="color: #A37C43;"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-2xl" style="color: #A37C43;"></i></a>    
+        </div>
+    </div>
+    <footer>
+    © Bodega El Sol 2023 | PROHIBIDA SU VENTA A MENORES DE 18 AÑOS | BEBER CON MODERACION | SI VAS A CONDICIR NO TOMES ALCOHOL |
+    </footer>
+</body>
+</html>
