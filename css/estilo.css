@@ -322,8 +322,30 @@ td {
     margin: 0 auto;
     padding: 20px 10px;
 }
-
-/* -----------------------------------------------------Footer-------------------------------------------------------- */
+/* ----------------------------------------------------- Contacto -------------------------------------------------------- */
+main{
+    color: #A37C43;
+}
+.imagen{
+    width: 100vw;
+    
+}
+.arbol{
+    position: relative;
+}
+.texto{
+    font-size: 1.2rem;
+    text-align: bottom;
+}
+article{
+    padding: 50px;
+}
+h2{
+    text-align: center;
+    text-decoration: dotted;   
+    padding: 2rem 0px;
+}
+/* ----------------------------------------------------- Footer -------------------------------------------------------- */
 .info{
     background-color: #1D1E24;
     color: #A37C43;
