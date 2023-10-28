@@ -267,12 +267,6 @@ figcaption{
 
 /* ----------------------------------------------------- Nosotros -------------------------------------------------------- */
 
-div {
-    padding-right: 10px;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
 h2 {
     color:#A37C43;
 }
@@ -304,6 +298,14 @@ h2 {
     border-radius: 10px;
 }
 
+.box {
+    border: 2px solid  #A37C43;
+    border-radius: 1em;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #27272b;
+  }
+
 .txt {
     font-size: 1rem;
     line-height: 1.75rem;
@@ -312,8 +314,7 @@ h2 {
     font-family: "Playfair Display", Arial, sans-serif;
     line-height: 1.5rem;
     letter-spacing: -0.3px;
-    color: #a7a7a7;
-    
+    color: #a7a7a7;    
 }
 
 td {
