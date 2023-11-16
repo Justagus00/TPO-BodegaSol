@@ -40,7 +40,7 @@ function validar() {
         document.getElementById("email").value="";
         document.getElementById("validar_email").innerHTML="";
         
-         alert("Datos enviados";)
+         alert("Datos enviados");
     }
     return !Error;
     
