@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Merriweather&family=Noto+Serif:wght@300&family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/validacion.js"></script>
     <title>Bodega el Sol</title>
 </head>
 <body>
@@ -28,7 +29,6 @@
                     <h2>Nuestros contactos</h2>
                     <figure class="imagen">
                         <img src="Img/online-consultation.jpg" alt="">
-                        <figcaption>Atención al cliente</figcaption>
                 
                     </figure>
                     
@@ -47,33 +47,37 @@
                 </section>
                 <section>
                     <h3>Contáctenos</h3>
-                    <fieldset>
+                    
                         <legend>Llená el formulario con tus datos</legend>
-                        <form action="">
-                            <label for="nombre">Nombre y apellido:</label>
-                            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre y apellido" required>
+                        <form class="formulario" onsubmit="return validar();">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre" value="">
+                            <span id="validar_nombre" style="color: rgb(240, 31, 31);"></span>
                             <br>
-                            <label for="telefono">Teléfono:</label>
-                            <input type="number" id="telefono" placeholder="Escribe tu teléfono" required><br>
-
-                            <label for="mail">Email:</label>
-                            <input type="email" id="email" placeholder="Escribe tu mail" required><br>
-                            <label for="pais">País:</label>
-                            <select name="pais" id="pais">
-                                <option value="Argentina">Argentina</option>
-                                <option value="Chile">Chile</option>
-                                <option value="Peru">Perú</option>
-                                <option value="Bolivia">Bolivia</option>
-                            </select><br>
-
-
-                            <label for="mensaje">Cuéntanos en qué podemos ayudarte</label><br>
-                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br>
+                            <br>
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" name="apellido" id="apellido" value="">
+                            <span id="validar_apellido" style="color: rgb(240,31,31)"></span>
+                            <br>
+                            <br>
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" id="email" value="">
+                            <span id="validar_email" style="color:rgb(240,31,31);"></span>
+                            <br>
+                            <br>
                             <input type="submit" value="Enviar">
+        
                         </form>
-                    </fieldset>
+            
+                        
+        
                 </section>
+
+                
+
+
             </main>
+
             <footer>
                 <section class="info">
                     <p>Seguinos en nuestras redes</p>
@@ -93,6 +97,9 @@
         </div>
 
     </div>
+
+
+    <script src="js/validacion.js"></script>
     
 </body>
 </html>
