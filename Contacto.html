@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Merriweather&family=Noto+Serif:wght@300&family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
-    <script src="js/validacion.js"></script>
+    <script src="valida.js"></script>
     <title>Bodega el Sol</title>
 </head>
 <body>
@@ -36,9 +36,9 @@
                         <p class="texto">Por reclamos o consultas sobre tus compras lo podes
                              realizar
                             a través del cualquier medio ya sea email o algunas de nuestras
-                             redes y tambien 
+                             redes, y tambien 
                             puedes dejarnos algun comentario.
-                            Si estas interesado en comerciaizar nuestros productos completa el 
+                            Si estas interesado en comercializar nuestros productos completa el 
                             formulario con tus
                             datos para que podamos contactarte.
 
@@ -49,24 +49,29 @@
                     <h3>Contáctenos</h3>
                     
                         <legend>Llená el formulario con tus datos</legend>
-                        <form class="formulario" onsubmit="return validar();">
-                            <label for="nombre">Nombre:</label>
+                        <form class="formulario" name=f1 onsubmit="return validar();">
+                            <label for="nombre">Nombre</label>
                             <input type="text" name="nombre" id="nombre" value="">
-                            <span id="validar_nombre" style="color: rgb(240, 31, 31);"></span>
-                            <br>
-                            <br>
-                            <label for="apellido">Apellido:</label>
+                            <span id="validar_nombre" style="color:red;"></span>
+                            <br><br>
+                    
+                    
+                            <label for="apellido">Apellido</label>
                             <input type="text" name="apellido" id="apellido" value="">
-                            <span id="validar_apellido" style="color: rgb(240,31,31)"></span>
-                            <br>
-                            <br>
-                            <label for="email">Email:</label>
-                            <input type="text" name="email" id="email" value="">
-                            <span id="validar_email" style="color:rgb(240,31,31);"></span>
-                            <br>
-                            <br>
+                            <span id="validar_apellido" style="color:red;"></span>
+                            <br><br>
+                    
+                            <label for="edad">Edad</label>
+                            <input type="text" name="edad" id="edad"  maxlength="2" value="">
+                            <span id="validar_edad" style="color:red;"></span>
+                            <br><br>
+                            
+                            
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="correo@correo.com">
+                            <span id="validar_email" style="color:red;"></span>
+                             <br><br>
                             <input type="submit" value="Enviar">
-        
                         </form>
             
                         
